@@ -35,3 +35,61 @@ Switched to branch 'develop'
 C:\Users\jhonv\Desktop\DAM 1\DAM1\ED\examen\Practica_Examen>git status
 On branch develop
 nothing to commit, working tree clean
+
+C:\Users\jhonv\Desktop\DAM 1\DAM1\ED\examen\Practica_Examen>git add .
+
+C:\Users\jhonv\Desktop\DAM 1\DAM1\ED\examen\Practica_Examen>git commit -m "Primera modificacion en la rama desarrollo"
+[develop e42806f] Primera modificacion en la rama desarrollo
+ 2 files changed, 50 insertions(+)
+
+C:\Users\jhonv\Desktop\DAM 1\DAM1\ED\examen\Practica_Examen>git push -u origin develop
+Enumerating objects: 7, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 28 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.11 KiB | 1.11 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/JohnAngeloVera/Practica_Examen/pull/new/develop
+remote:
+To https://github.com/JohnAngeloVera/Practica_Examen.git
+ * [new branch]      develop -> develop
+branch 'develop' set up to track 'origin/develop'.
+
+C:\Users\jhonv\Desktop\DAM 1\DAM1\ED\examen\Practica_Examen>git add .
+
+C:\Users\jhonv\Desktop\DAM 1\DAM1\ED\examen\Practica_Examen>git commit -m "Documentar adecuadamente el codigo"
+[develop eb6e029] Documentar adecuadamente el codigo
+ 1 file changed, 115 insertions(+)
+
+C:\Users\jhonv\Desktop\DAM 1\DAM1\ED\examen\Practica_Examen>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 28 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.36 KiB | 1.36 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/JohnAngeloVera/Practica_Examen.git
+   e42806f..eb6e029  develop -> develop
+
+C:\Users\jhonv\Desktop\DAM 1\DAM1\ED\examen\Practica_Examen>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\jhonv\Desktop\DAM 1\DAM1\ED\examen\Practica_Examen>git branch
+  develop
+* main
+
+C:\Users\jhonv\Desktop\DAM 1\DAM1\ED\examen\Practica_Examen>git merge develop
+Updating 69154ca..eb6e029
+Fast-forward
+ Comandos_Git.txt |  37 ++++++++++++++++++
+ README.md        | 115 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ main.py          |  13 +++++++
+ 3 files changed, 165 insertions(+)
+
+C:\Users\jhonv\Desktop\DAM 1\DAM1\ED\examen\Practica_Examen>git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/JohnAngeloVera/Practica_Examen.git
+   69154ca..eb6e029  main -> main
